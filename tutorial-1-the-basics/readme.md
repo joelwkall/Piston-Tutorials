@@ -21,7 +21,7 @@ Begin by opening the `Cargo.toml` file, and adding the necessary fields as shown
 	piston2d-graphics = "0.1.3"
 	piston2d-opengl_graphics = "0.1.0"
 
-Now that all of the dependencies are set up, we can get rolling with Rust. To begin, we will just create an empty window to give you an idea of what the bare minimum is. Replace the contents of `src/main.js` with the code below.
+Now that all of the dependencies are set up, we can get rolling with Rust. To begin, we will just create an empty window to give you an idea of what the bare minimum is. Replace the contents of `src/main.rs` with the code below.
 
 	extern crate piston;
 	extern crate sdl2_window;
